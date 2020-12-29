@@ -1,0 +1,6 @@
+[submodule "vscode-codeql-starter"]
+	path = vscode-codeql-starter
+	url = https://github.com/github/vscode-codeql-starter.git
+[submodule "fish-shell"]
+	path = fish-shell
+	url = https://github.com/fish-shell/fish-shell.git
