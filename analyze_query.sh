@@ -1,7 +1,8 @@
 #!/bin/sh
 
 #QUERY_FILE='/mnt/dropbox/asafall/tools/codeql-home/codeql-repo/cpp/ql/src/Likely\ Bugs/Memory\ Management/StackAddressEscapes.ql'
-QUERY_FILE='./codeql-repo/cpp/ql/src/Likely Bugs/Memory Management/StackAddressEscapes.ql'
+#QUERY_FILE='./codeql-repo/cpp/ql/src/Likely Bugs/Memory Management/StackAddressEscapes.ql'
+QUERY_FILE='./my_tutorial.ql'
 CODEQL_REPO_CPP_SRC=./codeql-repo/cpp/ql/src/
 
 mkdir -p output/fish-shell
