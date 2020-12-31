@@ -3,10 +3,10 @@
  * @kind problem
  */
 
-import tutorial
+import cpp
 
-from Person t
-where t.getHeight() > 150
-select t
-
+from IfStmt ifstmt, Block block
+where ifstmt.getThen() = block and
+    block.getNumStmt() = 0
+select ifstmt, "This 'if' statement is redundant."
 
