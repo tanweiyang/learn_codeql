@@ -6,5 +6,5 @@ QUERY_FILE='./my_tutorial.ql'
 CODEQL_REPO_CPP_SRC=./codeql-repo/cpp/ql/src/
 
 mkdir -p output/fish-shell
-codeql database analyze database/fish-shell "${QUERY_FILE}" --format=csv --output=output/fish-shell/result.csv --threads=2 --search-path=${CODEQL_REPO_CPP_SRC}
+codeql database analyze database/fish-shell "${QUERY_FILE}" --rerun --format=csv --output=output/fish-shell/result.csv --threads=2 --search-path=${CODEQL_REPO_CPP_SRC}
 
